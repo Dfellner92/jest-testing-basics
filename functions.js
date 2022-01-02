@@ -7,6 +7,7 @@ const functions = {
     user["lastName"] = "Fellner";
     return user;
   },
+  
 };
 
 module.exports = functions;
