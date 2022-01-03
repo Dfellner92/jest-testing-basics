@@ -32,6 +32,8 @@ test("User Obj should be Dan Fellner", () => {
   });
 });
 
+// >, <, >=, <=
+
 test("Should be under 1600", () => {
   const load1 = 800;
   const load2 = 700;
@@ -55,3 +57,9 @@ test("Should be equal or greater than 1600", () => {
   const load2 = 800;
   expect(load1 + load2).toBeGreaterThanOrEqual(1600);
 });
+
+// Regex
+
+test("Is there an 'M' in team?", () => {
+  expect('team').toMatch(/M/i);
+})
